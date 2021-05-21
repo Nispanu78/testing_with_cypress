@@ -4,7 +4,7 @@ describe('The Home Page', () => {
     // Find an element in the document containing the text 'New Post'
     cy.contains('Author')
 
-    // Find an element within '.main' containing the text 'New Post'
-    cy.get('.form').contains('Author')
+    // Find '.label'
+    cy.get('.navbar')
   })
 })
