@@ -4,9 +4,13 @@ describe('The Home Page', () => {
     // Find an element in the document containing the text 'New Post'
     cy.contains('Author')
 
-    // Find '.label'
+    // Find "navbar"
     cy.get('.navbar')
+    // Find "form-group"
     cy.get('.form-group')
-    cy.get('.control-label').contains('Author')
+    // Find "control-label" which contains the text 'Author'
+    cy.get('author').type('Nicola')
+    cy.get('body').type('Automated testing')
+
   })
 })
