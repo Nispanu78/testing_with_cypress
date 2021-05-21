@@ -6,5 +6,7 @@ describe('The Home Page', () => {
 
     // Find '.label'
     cy.get('.navbar')
+    cy.get('.form-group')
+    cy.get('.control-label').contains('Author')
   })
 })
