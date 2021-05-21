@@ -9,8 +9,9 @@ describe('The Home Page', () => {
     // Find "form-group"
     cy.get('.form-group')
     // Find "control-label" which contains the text 'Author'
-    cy.get('author').type('Nicola')
-    cy.get('body').type('Automated testing')
+    // cy.contains('title').type('Automatic Testing')
+    cy.get('input[type=text]').type('Cypress rules')
+    cy.get('body')
 
   })
 })
