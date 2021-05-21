@@ -11,7 +11,8 @@ describe('The Home Page', () => {
     // Find "control-label" which contains the text 'Author'
     // cy.contains('title').type('Automatic Testing')
     cy.get('input[type=text]').type('Cypress rules')
-    cy.get('body')
+    cy.get('textarea[name=body]').type('Happy to use Cypress')
+    cy.contains('POST').click()
 
   })
 })
