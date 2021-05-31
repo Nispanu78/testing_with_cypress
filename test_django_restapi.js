@@ -1,5 +1,6 @@
 describe('The Home Page', () =>{
   beforeEach(() => {
+    // it visits the following URL: http://127.0.0.1:8000/api/v1/
      cy.visit('/')
    })
    it('loads', () => {
