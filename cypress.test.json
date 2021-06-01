@@ -1,0 +1,11 @@
+{
+   "baseUrl": "https://solar4america--full.lightning.force.com/lightning/page/home",
+
+   "env": {
+     "salesforce": {
+       "loginUrl"      : "https://solar4america--full.my.salesforce.com/",
+       "username"      : "nicspanu@gmail.com-customercare",
+       "password"      : "test12345",
+      }
+   }
+}

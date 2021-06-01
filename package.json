@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"cy:open": "cypress open --config-file ./cypress/config/cypress.test.json",
+		"cy:run": "cypress run --config-file ./cypress/config/cypress.test.json"
+	},
+	"dependencies": {
+		"cypress": "^7.3.0"
+	}
+}
